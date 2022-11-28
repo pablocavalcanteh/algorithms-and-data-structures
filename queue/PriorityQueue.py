@@ -1,23 +1,14 @@
-import numpy as np
+from Queue import Queue
 
-class PriorityQueue:
+class PriorityQueue(Queue):
 
     def __init__(self, size):
-        self.size = size
-        self.start = 0
-        self.final = -1
-        self.elements_number = 0
-        self.values = np.empty(self.size, dtype=int)
+        super().__init__(size)
 
-    def __empty_queue(self):
-        return self.elements_number == 0
-    
-    def __full_queue(self):
-        return self.elements_number == self.size
-    
+
     def push(self, value):
 
-        if self.__full_queue():
+        if self.full_queue():
             print('Queue is full!')
             return
         
@@ -37,7 +28,7 @@ class PriorityQueue:
     
     def pop(self):
 
-        if self.__empty_queue():
+        if self.empty_queue():
             print('Queue is empty!')
             return
         
@@ -46,7 +37,7 @@ class PriorityQueue:
         return value
     
     def first(self):
-        if self.__empty_queue():
+        if self.empty_queue():
             return -1
         return self.values[self.elements_number -1]
 
