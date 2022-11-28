@@ -2,12 +2,12 @@ import numpy as np
 from typing import Union
 import random
 
-class OrderedVector:
+from Vector import Vector
+
+class OrderedVector(Vector):
 
     def __init__(self, size):
-        self.size = size
-        self.position_last = -1
-        self.values = np.empty(self.size, dtype=int)
+        super().__init__(size)
     
     def print(self) -> None:
 
