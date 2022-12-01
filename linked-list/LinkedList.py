@@ -2,7 +2,7 @@
 from typing import Union
 
 
-class No:
+class Node:
 
     def __init__(self, value):
         self.value = value
@@ -17,7 +17,7 @@ class LinkedList:
         self.first = None
     
     def insert_start(self, value) -> None:
-        new_no = No(value)
+        new_no = Node(value)
         new_no.next = self.first
         self.first = new_no
     
