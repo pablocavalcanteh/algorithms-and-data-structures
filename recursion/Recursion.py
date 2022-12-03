@@ -21,7 +21,7 @@ class Recursion:
 
 if __name__ == "__main__":
 
-    recursion = Recursion(17)
+    recursion = Recursion(11)
 
     iterativeSum = recursion.iterativeSum()
     recursiveSum = recursion.recursiveSum()
