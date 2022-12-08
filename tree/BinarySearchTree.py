@@ -46,7 +46,7 @@ class BinarySearchTree:
         current_node = self.root
         while current_node.value != value:
             if value < current_node.value:
-                current_node = current_node.value
+                current_node = current_node.left
             else:
                 current_node = current_node.right
             if not current_node:
@@ -184,3 +184,32 @@ class BinarySearchTree:
             next.right = node.right
         return next
 
+
+if __name__ == "__main__":
+
+    tree = BinarySearchTree()
+    tree.insert(53)
+    tree.insert(30)
+    tree.insert(14)
+    tree.insert(39)
+    tree.insert(9)
+    tree.insert(23)
+    tree.insert(34)
+    tree.insert(49)
+    tree.insert(72)
+    tree.insert(61)
+    tree.insert(84)
+    tree.insert(79)
+
+    tree.pre_order(tree.root)
+    print('----------------')
+    tree.in_order(tree.root)
+    print('----------------')
+    tree.pos_order(tree.root)
+
+    print('----------------')
+
+    if tree.search(79):
+        print('Found value!')
+    else:
+        print('Not found value!')
