@@ -1,6 +1,6 @@
 # Algorithms and data structures in Python.
 
-## Data Structure
+## Data Structures
 
 A data structure is an efficient way to store and organize data with associated operations
 in order to take advantage as long as possible it.
@@ -32,8 +32,15 @@ last-in, first-out or LIFO structures: elements are popped from the stack in the
 
 ### Graph
 
-A graph is a mathematical model that stands for the relationships between objects in a given set.
+A graph is a mathematical model that stands for the relationships between objects in a given set and it's defined in terms of two sets:
+
+- A set V of vertices that are the items represented in a graph.
+- A set A of edges that are used to connect any pair of vertices. In this case, two vertices are connected according to previously established criteria. 
 
 ### Tree
 
-A tree is a mathematical abstraction used to stand for non-linear hierarchical structures of modeled objects.
+A tree is a mathematical abstraction used to stand for non-linear hierarchical structures of modeled objects. As with graphs, a tree can also be defined using a set of nodes (or vertices) which are items stood for in the tree and rely on the nature of the modeled problem and edges which are used to connect any pair of nodes or vertices.
+
+### Sorting Algorithms
+
+Sorting algorithm is that one that put the elements of each sequence in a determined predefined order. They can be classified as internal or external ordering.
