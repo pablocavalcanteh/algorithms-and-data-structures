@@ -5,7 +5,7 @@
 A data structure is an efficient way to store and organize data with associated operations
 in order to take advantage as long as possible it.
 
-## Algorithm
+## Algorithms
 
 Algorithm can be defined as a simple and objective sequence of instructions to figure a certain problem out.
 Each instruction is an information that indicates to the computer an basic action to being executed.
@@ -43,4 +43,15 @@ A tree is a mathematical abstraction used to stand for non-linear hierarchical s
 
 ### Sorting Algorithms
 
-Sorting algorithm is that one that put the elements of each sequence in a determined predefined order. They can be classified as internal or external ordering.
+Sorting algorithm is that one that put the elements of each sequence in a determined predefined order. They can be classified as internal or external ordering. Some sorting algorithms are:
+
+- Bubble Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Sellection Sort
+- Shell Sort
+- others...
+
+
+Well, that's it! 👨‍💻 See ya!
