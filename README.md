@@ -1,4 +1,4 @@
-# Algorithms and data structures in Python.
+# Algorithms and Data Structures in Python.
 
 ## Data Structures
 
